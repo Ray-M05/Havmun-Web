@@ -1,0 +1,145 @@
+* {
+    background: #eff9fb;
+    color: #003366;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.toggle-checkbox {
+    display: none; 
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.navegation-bar {
+    position: fixed;
+    left: -14rem;
+    top: 0;
+    width: 12.5rem;
+    height: 100%;
+    padding-top: 1.875rem;
+    border: 0.125rem solid #006633;
+    transition: left 0.3s;
+}
+
+.toggle-btn img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.toggle-checkbox:checked + .toggle-btn + .navegation-bar {
+    left: 0; 
+}
+
+.toggle-checkbox:checked ~ .content {
+    margin-left: 14rem;
+}
+
+.navegation-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navegation-bar ul li {
+    margin: 1.875rem 0;
+}
+
+.navegation-bar ul li a {
+    text-decoration: none;
+    padding: 0.625rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navegation-bar ul li a:hover {
+    background-color: #006633;
+    color: #E0F7FA;
+}
+
+.content {
+    transition: margin-left 0.3s;
+    margin-left: 0; 
+    padding: 1.25rem;
+}
+
+.content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.select {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 3.125rem; 
+    margin-bottom: 0.1875rem; 
+    font-size: 1rem; 
+    border: 0.0625rem solid #006633; 
+    border-radius: 0.5rem; 
+    padding: 0.625rem 1.25rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
+    transition: background 0.3s, box-shadow 0.3s; 
+    max-width: 40%;
+    color: #003366;
+    z-index: 999;
+}
+
+.select:hover {
+    box-shadow: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.2); 
+}
+
+.select:before {
+    content: "";
+    display: inline-block;
+    width: 1.25rem; 
+    height: 1.25rem; 
+    border-radius: 50%; 
+    border: 0.125rem solid #003366; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+
+input[type="radio"]:checked + span:before {
+    content: "";
+    width: 0.875rem; 
+    height: 0.875rem; 
+    border-radius: 50%;
+    background-color: #003366;
+    position: absolute;
+    left: 0.1875rem; 
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #3399FF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
