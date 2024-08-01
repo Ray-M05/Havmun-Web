@@ -1,3 +1,2 @@
 - cambiar el html del delegado y hacer los botones como algo de informacion
-- hacer la historia del modelo y la edicion
 - capturar la segunda tabla del dise;o academico
