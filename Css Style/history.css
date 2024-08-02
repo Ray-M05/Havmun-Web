@@ -14,7 +14,6 @@ body {
     margin: 0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center; /* Centrar el texto en la tarjeta */
 }
 
@@ -25,14 +24,26 @@ h1 {
 
 .intro-text {
     font-size: 1rem;
+    line-height: 1.8;
     margin-bottom: 40px;
     text-align: left; /* Alinear texto a la izquierda para una mejor lectura */
 }
 
 .intro-text p {
     margin-bottom: 20px;
-    line-height: 1.6;
+    padding: 10px;
+    border-left: 3px solid #66CCFF; /* Agregar una línea azul a la izquierda de cada párrafo */
+    border-radius: 5px; /* Bordes redondeados para un aspecto más suave */
 }
+
+.intro-text p:first-of-type {
+    margin-top: 0; /* Eliminar el margen superior del primer párrafo */
+}
+
+.intro-text p:last-of-type {
+    margin-bottom: 0; /* Eliminar el margen inferior del último párrafo */
+}
+
 
 .timeline-images {
     display: flex;
@@ -42,7 +53,7 @@ h1 {
 }
 
 .timeline {
-    max-width: 400px;
+    max-width: 50%;
     padding: 20px;
     border-right: 2px solid #66CCFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -60,7 +71,7 @@ h1 {
 }
 
 .image-list {
-    max-width: 400px;
+    max-width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;

@@ -10,28 +10,43 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    max-width: 800px;
+    max-width: 70%;
+    margin: 20px;
     padding: 20px;
-    padding-top: 1rem;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    text-align: center; 
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #003366;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    margin-bottom: 30px; /* Mayor separación entre secciones */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #003366;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #66CCFF;
+    padding-bottom: 10px;
+    text-align: center; /* Centramos los subtítulos */
 }
 
 p {
     font-size: 1.25rem;
-    padding-top: 2rem;
+    color: #333;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 ol {
     font-size: 1.25rem;
+    color: #333;
     text-align: left;
     padding-left: 40px;
     margin: 20px 0;
@@ -41,10 +56,13 @@ ol li {
     margin-bottom: 15px;
 }
 
+.image-section {
+    text-align: center; /* Centramos la imagen y su título */
+}
+
 .image {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
