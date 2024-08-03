@@ -1,18 +1,27 @@
-.content {
+/* Centrar contenido */
+body {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
+.content {
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el título */
 h1 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
 }
 
+/* Secciones y plecas */
 .section {
     width: 100%;
     margin-bottom: 20px;
@@ -26,16 +35,33 @@ h1 {
     margin-bottom: 10px;
 }
 
-p, ul {
+/* Estilo para párrafos y listas */
+.content p, ul {
     font-size: 1rem;
     margin: 5px 0;
     padding-left: 20px;
 }
 
-ul {
+.content ul {
     padding-left: 40px;
 }
 
-li {
+.content li {
     margin-bottom: 10px;
+}
+
+.section-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-images img {
+    width: calc(50% - 20px);
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }

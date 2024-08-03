@@ -1,2 +1,4 @@
 - cambiar el html del delegado y hacer los botones como algo de informacion
-- capturar la segunda tabla del dise;o academico
+- centrar divs de academic
+- hacer la barra de nav scrolleable
+- aumentar tama;o de las fuentes
