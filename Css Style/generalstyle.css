@@ -4,6 +4,8 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
+    -ms-overflow-style: none;  /* Para IE y Edge */
+    scrollbar-width: none;  /* Para Firefox */
 }
 
 .toggle-checkbox {
@@ -30,6 +32,9 @@
     padding-top: 1.875rem;
     border: 0.125rem solid #006633;
     transition: left 0.3s;
+    overflow-y: scroll; /* Permite el desplazamiento vertical */
+    -ms-overflow-style: none;  /* Para IE y Edge */
+    scrollbar-width: none;  /* Para Firefox */
 }
 
 .toggle-btn img {

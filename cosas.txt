@@ -1,4 +1,3 @@
 - cambiar el html del delegado y hacer los botones como algo de informacion
-- centrar divs de academic
-- hacer la barra de nav scrolleable
-- aumentar tama;o de las fuentes
+- aumentar tama;o de las fuentes, quitar comentarios y usar medidas relativas
+- desabilitar botones del sist de votacion
