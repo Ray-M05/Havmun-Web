@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0;
+    padding: 20px; /* Asegura que el contenido tenga espacio interno */
+    margin-top: 60px; 
+}
+
+.content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #003366;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* Link Styles */
+.content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin: 12px 0;
+    font-size: 18px;
+    position: relative;
+    padding-left: 25px; /* espacio para el ícono */
+}
+
+.content li a {
+    color: #003366;
+    text-decoration: none;
+    display: block; /* Para abarcar el espacio de padding */
+}
+
+.commissions li a{
+    border-bottom: 1px solid #66CCFF;
+    display: inline-block;
+}
+
+.content li a:hover {
+    color: #3399FF;
+    border-color: #3399FF;
+}
+
+/* Custom Bullet Points */
+.content li::before {
+    content: '•';
+    color: #66CCFF; /* color de los puntos */
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Paragraph Styles */
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Content Styles */
+.card p.doc {
+    font-size: 18px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.content img {
+    display: block;
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 20px auto; /* Centra la imagen y añade margen superior e inferior */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+    border-radius: 10px;
+    border: 2px solid #66CCFF;
+}
