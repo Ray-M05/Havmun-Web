@@ -4,28 +4,27 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #003366; /* Azul Oscuro */
+    color: #003366; 
 }
 
 .registration {
     background-color: #fff;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 0.5rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.1);
 }
 
 .form-register {
     width: 100%;
-    max-width: 400px;
+    max-width: 90vw;
 }
 
 .h1 {
+    font-size: 2rem; 
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #003366; /* Azul Oscuro */
+    color: #003366; 
 }
-
-
 
 .form-group {
     margin-bottom: 1rem;
@@ -35,8 +34,9 @@ body {
 .form-group input {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #66CCFF; /* Celeste */
+    border: 1px solid #66CCFF; 
     border-radius: 0.25rem;
+    font-size: 1rem; 
 }
 
 button {
@@ -44,13 +44,13 @@ button {
     padding: 0.75rem;
     border: none;
     border-radius: 0.25rem;
-    background-color: #3399FF; /* Azul Medio */
+    background-color: #3399FF; 
     color: white;
-    font-size: 1rem;
+    font-size: 1.125rem; 
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #003366; /* Azul Oscuro */
+    background-color: #003366; 
 }

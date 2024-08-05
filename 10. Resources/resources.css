@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,40 +6,39 @@ body{
 }
 
 .content {
-    max-width: 900px;
+    max-width: 56.25rem; 
     margin: 0;
-    padding: 20px; /* Asegura que el contenido tenga espacio interno */
-    margin-top: 60px; 
+    padding: 1.25rem; 
+    margin-top: 3.75rem; 
 }
 
 .content h1 {
-    font-size: 28px;
+    font-size: 1.75rem; 
     font-weight: bold;
     color: #003366;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; 
     text-transform: uppercase;
     text-align: center;
 }
 
 .content h2 {
-    font-size: 24px;
+    font-size: 1.5rem; 
     font-weight: bold;
     color: #003366;
-    margin-top: 40px;
-    margin-bottom: 15px;
+    margin-top: 2.5rem; 
+    margin-bottom: 0.9375rem; 
     text-transform: uppercase;
 }
 
 .content h3 {
-    font-size: 22px;
+    font-size: 1.375rem; 
     font-weight: bold;
     color: #003366;
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-top: 2.1875rem; 
+    margin-bottom: 0.9375rem; 
     text-transform: uppercase;
 }
 
-/* Link Styles */
 .content ul {
     list-style: none;
     padding: 0;
@@ -47,19 +46,19 @@ body{
 }
 
 .content li {
-    margin: 12px 0;
-    font-size: 18px;
+    margin: 0.75rem 0; 
+    font-size: 1.125rem; 
     position: relative;
-    padding-left: 25px; /* espacio para el ícono */
+    padding-left: 1.5625rem; 
 }
 
 .content li a {
     color: #003366;
     text-decoration: none;
-    display: block; /* Para abarcar el espacio de padding */
+    display: block;
 }
 
-.commissions li a{
+.commissions li a {
     border-bottom: 1px solid #66CCFF;
     display: inline-block;
 }
@@ -69,60 +68,56 @@ body{
     border-color: #3399FF;
 }
 
-/* Custom Bullet Points */
 .content li::before {
     content: '•';
-    color: #66CCFF; /* color de los puntos */
-    font-size: 24px;
+    color: #66CCFF;
+    font-size: 1.5rem; 
     position: absolute;
     left: 0;
     top: 0;
 }
 
-/* Paragraph Styles */
 .content p {
-    font-size: 16px;
+    font-size: 1rem; 
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem; 
 }
 
-/* Card Styles */
 .card {
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 15px 0;
+    border-radius: 0.5rem; 
+    padding: 1.25rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    margin: 0.9375rem 0; 
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-/* Card Content Styles */
 .card p.doc {
-    font-size: 18px;
+    font-size: 1.125rem; 
     font-weight: bold;
     color: #003366;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem; 
     text-transform: uppercase;
 }
 
 .card p {
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 1rem; 
+    margin-bottom: 0.625rem; 
     line-height: 1.5;
 }
 
 .content img {
     display: block;
     max-width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin: 20px auto; /* Centra la imagen y añade margen superior e inferior */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
-    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
-    border-radius: 10px;
-    border: 2px solid #66CCFF;
+    height: auto;
+    margin: 1.25rem auto; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    border-radius: 0.625rem; 
+    border: 0.125rem solid #66CCFF; 
 }

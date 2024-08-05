@@ -1,4 +1,3 @@
-/* Centrar contenido */
 body {
     display: flex;
     justify-content: center;
@@ -9,59 +8,56 @@ body {
 }
 
 .content {
-    max-width: 70%;
-    padding: 20px;
-    border-radius: 10px;
+    max-width: 70vw;
+    padding: 2vw;
+    border-radius: 1vw;
 }
 
-/* Estilo para el título */
 h1 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
-/* Secciones y plecas */
 .section {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
 .pleca {
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 10px 0;
-    border-bottom: 2px solid #66CCFF;
-    margin-bottom: 10px;
+    padding: 1vw 0;
+    border-bottom: 0.2vw solid #66CCFF;
+    margin-bottom: 1vw;
 }
 
-/* Estilo para párrafos y listas */
 .content p, ul {
-    font-size: 1rem;
-    margin: 5px 0;
-    padding-left: 20px;
+    font-size: 1rem; 
+    margin: 0.5vw 0;
+    padding-left: 2vw;
 }
 
 .content ul {
-    padding-left: 40px;
+    padding-left: 4vw;
 }
 
 .content li {
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
 .section-images {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2vw;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 2vw;
 }
 
 .section-images img {
-    width: calc(50% - 20px);
+    width: calc(50% - 2vw);
     height: auto;
-    border-radius: 10px;
-    border: 2px solid #66CCFF;
+    border-radius: 1vw;
+    border: 0.2vw solid #66CCFF;
     transition: transform 0.3s ease;
 }

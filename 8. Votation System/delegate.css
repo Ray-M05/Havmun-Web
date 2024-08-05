@@ -9,7 +9,7 @@ body {
 
 .content {
     text-align: center;
-    max-width: 600px;
+    max-width: 60vw;
     width: 100%;
     padding: 1rem;
     box-sizing: border-box;
@@ -19,13 +19,13 @@ body {
 .content h1 {
     font-size: 2rem;
     margin: 0 0 1.5rem 0;
-    word-wrap: break-word; /* Ajusta el texto para que no se salga de la pantalla */
+    word-wrap: break-word; 
 }
 
 .card-container {
     padding: 2rem;
     border-radius: 0.5rem;
-    max-width: 500px;
+    max-width: 50vw;
     margin: 0 auto;
     overflow-y: auto;
 }
@@ -35,11 +35,11 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    overflow-y: auto; /* Scroll si se excede la altura */
-    border: 1px solid #003366;
+    overflow-y: auto; 
+    border: 0.0625rem solid #003366;
     border-radius: 0.5rem;
-    max-height: 400px; 
-    background-color: #ffffff; /* Color de fondo de la tarjeta */
+    max-height: 50vh; 
+    background-color: #ffffff; 
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
@@ -47,7 +47,7 @@ body {
     display: block;
     cursor: default;
     position: relative;
-    font-size: 1rem;
+    font-size: 1.125rem; 
     border: 0.0625rem solid #003366;
     border-radius: 0.5rem;
     padding: 0.625rem 1.5rem;
@@ -55,8 +55,6 @@ body {
     text-align: center;
     width: 100%;
 }
-
-
 
 .options {
     display: flex;
@@ -70,7 +68,7 @@ body {
     align-items: center;
     cursor: default;
     position: relative;
-    font-size: 0.875rem;
+    font-size: 0.9375rem; 
     padding: 0.5rem 1.5rem;
     border: 0.0625rem solid #66CCFF;
     border-radius: 0.5rem;
@@ -89,15 +87,15 @@ body {
 }
 
 .options label:nth-child(1) .custom-radio::before {
-    background-color: #006633; /* Verde */
+    background-color: #006633; 
 }
 
 .options label:nth-child(2) .custom-radio::before {
-    background-color: #f44336; /* Rojo */
+    background-color: #f44336; 
 }
 
 .options label:nth-child(3) .custom-radio::before {
-    background-color: #3399FF; /* Azul */
+    background-color: #3399FF; 
 }
 
 .options label:hover {

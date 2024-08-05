@@ -3,82 +3,75 @@ body {
     padding: 0;
     height: 100%;
     display: flex;
-    align-items: center; /* Centra el contenido verticalmente */
-    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 75vw;
+    margin: 0;
+    padding: 2vw;
     width: 100%;
 }
 
-/* Estilo del título principal */
 h1 {
-    font-size: 2rem;
+    font-size: 2.2rem; 
     color: #003366;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
-/* Estilo de las secciones */
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2vw;
 }
 
-/* Estilo de los encabezados de sección */
 .pleca {
-    font-size: 1.2rem;
+    font-size: 1.3rem; 
     font-weight: bold;
     color: #003366;
-    padding: 10px 0;
-    border-bottom: 2px solid #66CCFF;
-    margin-bottom: 10px;
+    padding: 1vw 0;
+    border-bottom: 0.2vw solid #66CCFF;
+    margin-bottom: 1vw;
 }
 
-/* Estilo de los párrafos y listas */
 p, ul {
-    font-size: 1rem;
+    font-size: 1rem; 
     color: #333;
-    margin: 5px 0;
-    padding-left: 20px;
+    margin: 0.5vw 0;
+    padding-left: 2vw;
 }
 
-/* Estilo específico para las listas */
 ul {
-    padding-left: 40px;
+    padding-left: 4vw;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
-/* Estilo del contenedor de tablas */
 .tables {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2vw;
     width: 100%;
-    gap: 30px; /* Espacio entre las tablas */
+    gap: 3vw;
 }
 
-/* Estilo de las tablas */
 .table {
     width: 100%;
-    max-width: 1000px; /* Limita el ancho de las tablas para que no se extiendan demasiado */
+    max-width: 62.5vw;
     border-collapse: separate;
-    border-spacing: 0 15px; /* Espacio entre las filas de la tabla */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra más prominente */
-    border-radius: 10px;
+    border-spacing: 0 1vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+    border-radius: 1vw;
     overflow: hidden;
     background-color: #fff;
 }
@@ -89,39 +82,33 @@ li {
     font-weight: bold;
 }
 
-/* Estilo para las celdas de encabezado y cuerpo */
 .table th, .table td {
-    padding: 12px 20px; /* Espaciado interno más amplio */
+    padding: 1.2vw 2vw;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 0.1vw solid #ddd;
 }
 
-/* Estilo para las filas del cuerpo */
 .table tbody tr {
-    background-color: #f9f9f9; /* Color de fondo general para las filas */
+    background-color: #f9f9f9;
 }
 
-/* Estilo para filas pares */
 .table tbody tr:nth-child(even) {
-    background-color: #f2f2f2; /* Color de fondo para filas pares */
+    background-color: #f2f2f2;
 }
 
-/* Estilo para filas en hover */
 .table tbody tr:hover {
-    background-color: #e6f7ff; /* Color de fondo al pasar el ratón sobre una fila */
+    background-color: #e6f7ff;
 }
 
-/* Estilo para las celdas que abarcan varias columnas */
 .table td[colspan] {
     background-color: #e6e6e6;
     font-weight: bold;
-    text-align: center; /* Alineación centrada para las celdas que abarcan varias columnas */
+    text-align: center;
 }
 
-/* Estilo para las imágenes de las banderas */
 .table td img.flag-img {
-    width: 40px; /* Ajusta el tamaño según lo necesites */
+    width: 4vw;
     height: auto;
-    vertical-align: middle; /* Alinea verticalmente la imagen */
-    margin-right: 8px; /* Espaciado a la derecha de la imagen */
+    vertical-align: middle;
+    margin-right: 0.8vw;
 }

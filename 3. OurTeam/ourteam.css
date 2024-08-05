@@ -1,21 +1,23 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
+
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
-    margin: 0;
-    padding: 20px;
+    max-width: 90vw; 
+    padding: 5vw;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #003366;
     text-align: center;
     margin-bottom: 20px;
@@ -27,15 +29,15 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    gap: 20px;
+    gap: 4vw; 
 }
 
 .team-info {
-    width: 50%; /* Ocupa el 50% del ancho disponible */
+    width: 48%; 
 }
 
 .pleca {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #003366;
     padding: 10px 0;
@@ -44,23 +46,40 @@ h1 {
 }
 
 .team-info p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #333;
     margin: 5px 0;
 }
 
 .team-images {
-    width: 50%; /* Ocupa el 50% del ancho disponible */
+    width: 48%; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 3vw; 
 }
 
 .team-images img {
     margin-top: 2rem;
-    max-width: 100%; /* Ajusta el tamaño de las imágenes al contenedor */
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     border: 2px solid #66CCFF;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .content {
+        max-width: 100vw;
+        padding: 4vw;
+    }
+
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-info, .team-images {
+        width: 90%; 
+    }
 }

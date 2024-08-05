@@ -1,62 +1,56 @@
-/* Estilo general del body */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #003366; /* Azul Oscuro */
-    font-family: Arial, sans-serif; /* Fuente más moderna */
+    color: #003366;
+    font-family: Arial, sans-serif;
+    font-size: 100%; 
 }
 
-/* Estilo del contenedor de contacto */
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 500px; /* Máximo ancho del contenedor */
-    padding: 2rem;
+    max-width: 31.25rem; 
+    padding: 1.25rem; 
     background-color: #fff;
     border-radius: 0.5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centra el texto dentro del contenedor */
+    text-align: center;
     margin: 1rem;
 }
 
-/* Estilo del título de contacto */
 h1 {
-    font-size: 2rem;
+    font-size: 1.75rem; 
     text-align: center;
     margin-bottom: 1.5rem;
     background-color: #fff;
 }
 
-/* Estilo de los párrafos de contacto */
 p {
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 1.125rem; 
+    margin: 0.625rem 0; 
     background-color: #fff;
 }
 
-/* Estilo de los enlaces de contacto */
 a {
     font-size: 1rem;
-    text-decoration: none; /* Elimina el subrayado */
-    margin: 5px 0;
-    display: block; /* Asegura que los enlaces se muestren en una nueva línea */
+    text-decoration: none;
+    margin: 0.5rem 0; 
+    display: block;
 }
 
-/* Estilo de los enlaces en hover */
 a:hover {
     color: #66CCFF;
 }
 
-/* Estilo de la imagen de contacto */
 .content img {
-    margin-top: 20px;
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
-    border-radius: 0.25rem; /* Bordes redondeados para la imagen */
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de la imagen */
+    margin-top: 1.25rem; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
