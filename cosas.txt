@@ -1,3 +1,0 @@
-- desabilitar botones del sist de votacion
-- poner un p con una clase para que se pueda poner la inf en numeros en acceptance
-- poner en el css de delegado un ejemplo de como cambiar el color de fondo de los paises
